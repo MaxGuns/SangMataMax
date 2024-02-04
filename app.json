@@ -6,7 +6,7 @@
     "Sangmetainfo_bot",
     "Sangmata Bot"
   ],
-  "repository": "https://github.com/bot-guru/Sangmetainfo_bot",
+  "repository": "https://github.com/MaxGun/SangMataMax",
   "env": {
     "HEROKU_APP_NAME": {
       "description": "give your heroku name",
