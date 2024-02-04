@@ -1,4 +1,4 @@
-python-telegram-bot==[latest_version]
+python-telegram-bot==14.8
 requests
 urllib3==1.26.7
 
