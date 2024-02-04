@@ -37,7 +37,8 @@ logger = logging.getLogger(__name__)
 
 # Making Updater For TeleCallerBot
 updater = Updater(TOKEN, use_context=True)
-dispatcher = updater.dispatcher  # Define the dispatcher object
+dispatcher = updater.dispatcher
+  # Define the dispatcher object
 
 def start(update, context):
     logg(update.message)
