@@ -3,6 +3,9 @@
   "description": "A simple Telegram Bot with SangMeta style",
   "keywords": ["Sangmetainfo_bot", "Sangmata Bot"],
   "repository": "https://github.com/MaxGun/SangMataMax",
+  "scripts": {
+    "start": "python3 SangMetainfo_bot.py"
+  },
   "env": {
     "HEROKU_APP_NAME": {
       "description": "Your Heroku app name",
@@ -17,9 +20,6 @@
       "value": "6255626143:AAG51Cu61Qi3KZtagRu4uL0fFmc5lyVwsQ4"
     }
   },
-  "scripts": {
-    "postdeploy": "python SangMetainfo_bot.py"
-  },
   "addons": [
     "heroku-postgresql"
   ],
@@ -27,5 +27,11 @@
     {
       "url": "https://github.com/heroku/heroku-buildpack-python.git"
     }
-  ]
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  }
 }
