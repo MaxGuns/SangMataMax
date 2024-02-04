@@ -1,1 +1,1 @@
-web: python3 sangmata
+web: python3 sangmata.py
