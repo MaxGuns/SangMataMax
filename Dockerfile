@@ -14,4 +14,4 @@ COPY . .
 
 RUN ls -l
 
-CMD ["python", "-m", "sangmata"]
+CMD ["python", "-m", "sangmata.py"]
