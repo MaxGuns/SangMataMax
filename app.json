@@ -1,28 +1,28 @@
 {
-    "name": "MaxGuns Userbot",
-    "description": "UserBot BIASA AJAH !!!.",
-    "repository": "https://github.com/MaxGuns/MaxGun",
-    "stack": "container",
-    "env": {
-        "OWNER_ID": {
-            "description": "Fill with your ID, go to @geezramrobot pm, and type /id",
-            "required": true,
-            "value": "940035839"
-        },
-        "BOT_TOKEN": {
-            "description": "Fill with your bot token obtained from @BotFather on Telegram",
-            "required": true,
-            "value": "6255626143:AAG51Cu61Qi3KZtagRu4uL0fFmc5lyVwsQ4"
-        },
-        "HEROKU_APP_NAME": {
-            "description": "Heroku APP name",
-            "required": false,
-            "value": ""
-        }
+  "name": "SangMeta Info Bot",
+  "description": "A simple Telegram Bot Look Like SangMeta ",
+  "logo": "https://telegra.ph/file/3d60313110c58684b31ea.jpg",
+  "keywords": [
+    "mata4mebot",
+    "Sangmata Bot"
+  ],
+  "repository": "https://github.com/JagoanRedesign/sangmata",
+  "env": {
+    "HEROKU_APP_NAME": {
+      "description": "give your railway name",
+      "value": "sangmata-production"
     },
-    "buildpacks": [
-        {"url": "https://github.com/interconnectit/heroku-buildpack-ffmpeg"},
-        {"url": "https://github.com/heroku/heroku-buildpack-nodejs"},
-        {"url": "heroku/python"}
-    ]
+    "OWNER": {
+      "description": "940035839",
+      "value": "940035839"
+    },
+    "BOT_TOKEN": {
+      "description": "Telegram Bot Token",
+      "value": "6255626143:AAG51Cu61Qi3KZtagRu4uL0fFmc5lyVwsQ4"
+    },
+    "PORT": {
+      "description": "Port",
+      "value": "80"
+    }
+  }
 }
