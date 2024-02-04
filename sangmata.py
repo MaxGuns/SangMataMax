@@ -2,7 +2,7 @@
 import logging
 import random
 import json
-#import urllib3.contrib.appengine as appengine
+##import urllib3.contrib.appengine as appengine  # type: ignore[no-redef]
 from datetime import datetime, timedelta
 from telegram import Update,KeyboardButton,ReplyKeyboardMarkup
 from telegram.ext import Updater, CommandHandler,CallbackContext, MessageHandler,filters
