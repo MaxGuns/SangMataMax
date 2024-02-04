@@ -1,7 +1,4 @@
-## How to deploy TitanStrike bot
-### Heroku Deploy
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/MaxGuns/SangMataMax/tree/master&template=https://github.com/MaxGuns/SangMataMax/tree/master)
-
-## How To Use
-  - Use With Common Sense
-  - You can also take help from 
+# Deploy on Heroku
+<h3 align="center">Click The Button</h3>
+<a href="https://dashboard.heroku.com/new?template=https://github.com/MaxGuns/SangMataMax"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
+</div>
