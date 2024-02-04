@@ -20,18 +20,9 @@
       "value": "6255626143:AAG51Cu61Qi3KZtagRu4uL0fFmc5lyVwsQ4"
     }
   },
-  "addons": [
-    "heroku-postgresql"
-  ],
-  "buildpacks": [
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-python.git"
-    }
-  ],
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "eco"
-    }
-  }
+        "buildpacks": [
+        {"url": "https://github.com/interconnectit/heroku-buildpack-ffmpeg"},
+        {"url": "https://github.com/subinps/heroku-buildpack-nodejs"},
+        {"url": "heroku/python"}
+    ]
 }
