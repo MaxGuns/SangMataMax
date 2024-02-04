@@ -115,7 +115,7 @@ dispatcher.add_handler(CommandHandler("start", start))
 dispatcher.add_handler(CommandHandler("search_id", search_id))
 dispatcher.add_handler(CommandHandler("sg", get_user_history))
 dispatcher.add_handler(MessageHandler(Filters.chat_type.private, start))
-dispatcher.add_handler(ChatMemberUpdatedHandler(chat_member_updated))
+dispatcher.add_handler(ChatMemberHandler(chat_member_updated))
 dispatcher.add_error_handler(error)
 
 # Start the webhook
