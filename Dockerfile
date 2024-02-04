@@ -14,4 +14,4 @@ COPY . .
 
 RUN ls -l
 
-CMD ["python", "-m", "SangMetainfo_bot"]
+CMD ["python", "-m", "sangmata"]
