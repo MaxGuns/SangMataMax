@@ -18,7 +18,7 @@
     }
   },
   "scripts": {
-    "postdeploy": "python your_main_file.py"
+    "postdeploy": "python SangMetainfo_bot.py"
   },
   "addons": [
     "heroku-postgresql"
