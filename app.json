@@ -1,25 +1,25 @@
 {
-  "name": "SangMeta Info Bot",
-  "description": "A simple Telegram Bot with SangMeta style",
-  "keywords": ["Sangmetainfo_bot", "Sangmata Bot"],
-  "repository": "https://github.com/MaxGun/SangMataMax",
-  "scripts": {
-    "start": "python SangMetainfo_bot.py"
-  },
-  "env": {
-    "HEROKU_APP_NAME": {
-      "description": "Your Heroku app name",
-      "value": "your-heroku-app-name"
+    "name": "MaxGuns Userbot",
+    "description": "UserBot BIASA AJAH !!!.",
+    "repository": "https://github.com/MaxGuns/MaxGun",
+    "stack": "container",
+    "env": {
+        "OWNER_ID": {
+            "description": "Fill there your I'd go to @geezramrobot pm and type /id",
+            "required": true,
+            "value": "940035839"
+        },
+        "BOT_TOKEN": {
+            "description": "fill with your bot token get from @BotFather on telegram",
+            "required": true,
+            "value": "6255626143:AAG51Cu61Qi3KZtagRu4uL0fFmc5lyVwsQ4"
+        },
+        "HEROKU_APP_NAME": {
+            "description": "Heroku APP name",
+            "required": false,
+            "value": ""
+        }
     },
-    "OWNER": {
-      "description": "Telegram User ID of the bot owner",
-      "value": "940035839"
-    },
-    "BOT_TOKEN": {
-      "description": "Telegram Bot Token",
-      "value": "6255626143:AAG51Cu61Qi3KZtagRu4uL0fFmc5lyVwsQ4"
-    }
-  },
         "buildpacks": [
         {"url": "https://github.com/interconnectit/heroku-buildpack-ffmpeg"},
         {"url": "https://github.com/subinps/heroku-buildpack-nodejs"},
