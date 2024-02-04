@@ -2,7 +2,7 @@
 import logging
 import random
 import json
-import urllib3.contrib.appengine as appengine
+#import urllib3.contrib.appengine as appengine
 from datetime import datetime, timedelta
 from telegram import Update,KeyboardButton,ReplyKeyboardMarkup
 from telegram.ext import Updater, CommandHandler,CallbackContext, MessageHandler,filters
